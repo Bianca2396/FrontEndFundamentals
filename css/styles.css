@@ -1,0 +1,153 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+
+    .highlight{
+        color: #037BC0;
+
+    }
+
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+  }
+
+ nav {
+    background-color: #037BC0;
+    padding: 10px 0;
+  }
+
+  .nav-container {
+  position: relative;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+  .nav-links-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-logo {
+  position: absolute;
+  left: 0px;
+}
+
+.search-bar {
+  position: absolute;
+  right: 0px;
+}
+
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+  }
+
+  .search-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .logo-img {
+   height: 40px;
+   width: auto;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/principal.jpg");
+  height: 400px;
+  background-position: center 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
+
+.nuestros-productos{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.foto{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.row.producto-1 {
+  display: flex;
+  align-items: stretch;
+}
+
+.producto-1 .foto {
+  background-image: url("../img/producto1.jpg");
+}
+
+.info-producto {
+  background-color: #007bff;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.titulo-producto {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.descripcion-producto{
+  font-size: 0.8rem;
+}
+
+.precio-producto{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.ver-mas{
+
+
+}
