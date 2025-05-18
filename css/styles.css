@@ -148,6 +148,54 @@ body{
 }
 
 .ver-mas{
+ background-color: limegreen;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 
 
+}
+
+.row.producto-2 {
+  align-items: stretch;
+}
+
+
+.producto-2 .foto {
+  background-image: url("../img/producto2.jpg");
+}
+
+.row.producto-3 {
+  align-items: stretch;
+  
+}
+.producto-3 .foto {
+  background-image: url("../img/producto3.jpg");
+}
+
+.row.producto-4 {
+  align-items: stretch;
+  
+}
+.producto-4 .foto {
+  background-image: url("../img/producto4.jpg");
+}
+
+.row.producto-5 {
+  align-items: stretch;
+  
+}
+.producto-5 .foto {
+  background-image: url("../img/producto5.jpg");
+}
+.row.producto-6 {
+  align-items: stretch;
+  
+}
+.producto-6 .foto {
+  background-image: url("../img/producto6.jpg");
 }
